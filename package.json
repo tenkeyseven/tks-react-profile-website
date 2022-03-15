@@ -1,16 +1,8 @@
 {
-  "name": "react-tailwindcss-typescript-vite-template",
-  "version": "0.0.0",
+  "name": "tks-react-profile-website",
+  "version": "1.0.0",
   "license": "MIT",
   "private": true,
-  "author": {
-    "email": "rohidul209@gmail.com",
-    "name": "Rohid",
-    "url": "https://rohidulislam.com"
-  },
-  "repository": {
-    "url": "https://github.com/rohid-hub/react-tailwindcss-typescript-vite-template"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -18,7 +10,8 @@
   },
   "dependencies": {
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-router-dom": "6"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
