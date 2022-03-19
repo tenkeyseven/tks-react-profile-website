@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@fontsource/gravitas-one': ^4.5.4
   '@types/react': ^17.0.41
   '@types/react-dom': ^17.0.14
   '@vitejs/plugin-react': ^1.2.0
@@ -14,6 +15,7 @@ specifiers:
   vite: ^2.8.6
 
 dependencies:
+  '@fontsource/gravitas-one': 4.5.4
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-router-dom: 6.2.2_react-dom@17.0.2+react@17.0.2
@@ -304,6 +306,10 @@ packages:
       '@babel/helper-validator-identifier': 7.16.7
       to-fast-properties: 2.0.0
     dev: true
+
+  /@fontsource/gravitas-one/4.5.4:
+    resolution: {integrity: sha512-8F+sorMWffSOfq55CFvTdfrOYMn9nnWpZPHK3jQx0LAKgojwk+1C/G8+CGCQTiBXmFbHUe2CU8+kAjx6KypIWg==}
+    dev: false
 
   /@jridgewell/resolve-uri/3.0.5:
     resolution: {integrity: sha512-VPeQ7+wH0itvQxnG+lIzWgkysKIr3L9sslimFW55rHMdGu/qCQ5z5h9zq4gI8uBtqkpHhsF4Z/OwExufUCThew==}

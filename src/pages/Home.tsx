@@ -19,11 +19,13 @@ export default function Home() {
       </div> */}
 
       <div className="relative group">
-        <div className="text-9xl border tracking-widest font-black">Tenkeyseven</div>
-        <div className="w-[31.5rem] h-6 bg-pink-600 absolute left-0 bottom-0 opacity-70 transition-all duration-300 group-hover:w-[58rem]" />
+        <div className="text-8xl tracking-widest font-thick">Tenkeyseven</div>
+
+        <img className="absolute -top-80 right-40 -z-10" src="/images/blob.svg" />
+        <div className="w-[34rem] h-6 bg-pink-600 absolute left-0 bottom-0 opacity-70 -z-10 transition-all duration-300 group-hover:w-[60rem]" />
       </div>
 
-      <div className="mt-16 border tracking-widest">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+      <div className="mt-16 tracking-widest">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
     </div>
   )
 }
