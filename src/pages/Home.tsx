@@ -1,8 +1,7 @@
 export default function Home() {
   return (
-    <div className="flex p-10 shadow-xl rounded-lg">
-      <div className="p-6 ">
-        {/* catcat head */}
+    <div className="w-full m-16">
+      {/* <div className="p-6">
         <img
           className="rounded-full h-52 w-52 shadow-lg"
           src="/avatar.png"
@@ -17,7 +16,14 @@ export default function Home() {
         <div className="pl-6 font-sans">
           Current Status: 🌱
         </div>
+      </div> */}
+
+      <div className="relative group">
+        <div className="text-9xl border tracking-widest font-black">Tenkeyseven</div>
+        <div className="w-[31.5rem] h-6 bg-pink-600 absolute left-0 bottom-0 opacity-70 transition-all duration-300 group-hover:w-[58rem]" />
       </div>
+
+      <div className="mt-16 border tracking-widest">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
     </div>
-  );
+  )
 }

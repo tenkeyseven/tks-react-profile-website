@@ -1,25 +1,30 @@
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Friend from "./pages/Friend";
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import About from './pages/About'
+import Friend from './pages/Friend'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="bg-gray-50 h-screen">
-      <Navbar />
+    <div className="flex flex-col min-h-screen">
+      <div>
+        <Navbar />
+      </div>
 
-      <main className="w-screen flex items-center justify-center">
+      <main className="w-screen flex-1 flex items-center justify-center">
         {/* Here are the routes, home and about, please add them, thanks. */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/friend" element={<Friend />}/>
+          <Route path="/friend" element={<Friend />} />
           <Route path="*" element={<div>404</div>} />
         </Routes>
       </main>
+
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
