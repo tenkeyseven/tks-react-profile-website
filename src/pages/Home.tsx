@@ -18,8 +18,9 @@ export default function Home() {
         </div>
       </div> */}
 
+      {/*  */}
       <div className="relative group">
-        <div className="text-8xl tracking-widest font-thick">Tenkeyseven</div>
+        <div className="text-8xl tracking-widest font-thick">TenkeySeven</div>
 
         <img className="absolute -top-80 right-40 -z-10" src="/images/blob.svg" />
         <div className="w-[34rem] h-6 bg-pink-600 absolute left-0 bottom-0 opacity-70 -z-10 transition-all duration-300 group-hover:w-[60rem]" />

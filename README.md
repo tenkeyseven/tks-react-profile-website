@@ -8,7 +8,7 @@ Great Thanks to the Author (*¯︶¯*)！
 
 This house will be built with following tools:
 + React 
-+ TypeSctipt
++ TypeScript
 + Vite
 + Tailwindcss
 + Vercel
