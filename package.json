@@ -12,7 +12,9 @@
     "@fontsource/gravitas-one": "^4.5.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.2"
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.2",
+    "swr": "^1.2.2"
   },
   "devDependencies": {
     "@types/react": "^17.0.41",
