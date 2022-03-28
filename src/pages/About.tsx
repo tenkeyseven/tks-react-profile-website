@@ -1,5 +1,6 @@
 import React from "react";
 import { IconType } from "react-icons";
+import loaderStyles from "/src/ColorLoader.module.css";
 import {
   AiOutlineGithub,
   AiOutlineWeibo,
@@ -17,8 +18,9 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 function Stats({ apiUrl }: { apiUrl: string }) {
   const { data, error } = useSWR(apiUrl, fetcher);
 
+  // return <div className={loaderStyles.loader}></div>;
   if (error) return <div>failed to load</div>;
-  if (!data) return <div>loading...</div>;
+  if (!data) return <div className={loaderStyles.loader}></div>;
 
   return <div>{data.count}</div>;
 }
