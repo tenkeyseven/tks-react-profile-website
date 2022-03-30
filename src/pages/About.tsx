@@ -40,7 +40,7 @@ const socials = [
   },
   {
     Logo: RiBilibiliFill, //传递一个 component 需要大写
-    name: "Bilibii",
+    name: "Bilibili",
     link: "https://space.bilibili.com/93654417",
     apiUrl: "https://api.swo.moe/stats/bilibili/93654417",
   },

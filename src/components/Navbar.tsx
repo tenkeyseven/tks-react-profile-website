@@ -28,7 +28,7 @@ function NavLink({
 
 export default function Navbar() {
   return (
-    <header className="flex items-center bg-gradient-primary justify-between">
+    <header className="flex items-center justify-between">
       <a className='font-serif text-xl font-bold ml-4 text-slate-500' href="/">@TenkeySeven</a>
       <nav className="px-8 py-4 flex items-center space-x-16 justify-start text-gray-500">
         {links.map(({ to, label }, i) => (

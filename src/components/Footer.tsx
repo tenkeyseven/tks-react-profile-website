@@ -1,7 +1,8 @@
 export default function Footer() {
   return (
     <footer className="p-16 bg-gradient-primary-bottom flex justify-between flex-col">
-      <div>12</div>
+      <div></div>
+      
       <div className="mx-48 my-8 h-[1px] bg-slate-500/50"></div>
       <div className="flex flex-col items-center">
         <div className="flex">
@@ -9,10 +10,10 @@ export default function Footer() {
             Building with
           </span>
           <a href="https://reactjs.org">
-            <img className="w-6" src="public/images/logoReact.svg" />
+            <img className="w-6" src="images/logoReact.svg" />
           </a>
           <a href="https://www.typescriptlang.org">
-            <img className="w-6" src="public/images/logoTypeScript.svg" />
+            <img className="w-6" src="images/logoTypeScript.svg" />
           </a>
         </div>
         <div className="text-sm text-slate-500">

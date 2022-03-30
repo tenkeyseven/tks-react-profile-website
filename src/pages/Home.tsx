@@ -1,4 +1,3 @@
-
 // some colors
 // 「经典配色」
 // 1. 0xFFCAD4
@@ -35,11 +34,41 @@ export default function Home() {
       </div>
 
       <div className="mt-16 tracking-widest">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div> */}
-    {/* <div className="border h-32 bg-primary">
+      {/* <div className="border h-32 bg-primary">
       <div className="texl-3xl">TenkeySeven</div>
     </div> */}
-    <img src="public/photography/FINE_IMG4.jpg" alt="123" />
-    <div></div>
+      <div className="flex flex-col m-16 items-center">
+        <div className="flex justify-center text-3xl font-bold">玉兰</div>
+        <img
+          className="border-orange-300 border-[16px] w-3/5 m-8 flex justify-center"
+          src="photography/FINE_IMG4.jpg"
+          alt="123"
+        />
+      </div>
+      <div className="flex flex-col m-16 items-center">
+        <div className="flex justify-center text-3xl font-bold">还是玉兰</div>
+        <img
+          className="border-orange-300 border-[16px] w-3/5 m-8 flex justify-center"
+          src="photography/FINE_IMG5.jpg"
+          alt="123"
+        />
+      </div>
+      <div className="flex flex-col m-16 items-center">
+        <div className="flex justify-center text-3xl font-bold">依旧还是玉兰</div>
+        <img
+          className="border-orange-300 border-[16px] w-3/5 m-8 flex justify-center"
+          src="photography/FINE_IMG6.jpg"
+          alt="123"
+        />
+      </div>
+      <div className="flex flex-col m-16 items-center">
+        <div className="flex justify-center text-3xl font-bold">不是玉兰了，是小雏菊</div>
+        <img
+          className="border-orange-300 border-[16px] w-3/5 m-8 flex justify-center"
+          src="photography/IMG_0179.jpg"
+          alt="123"
+        />
+      </div>
     </div>
-  )
+  );
 }
