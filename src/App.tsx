@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Friend from './pages/Friend'
 import Footer from './components/Footer'
+import Gallery from './pages/Gallery'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/friend" element={<Friend />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<div>404</div>} />
         </Routes>
       </main>

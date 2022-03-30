@@ -65,7 +65,7 @@ function Card({
 }) {
   return (
     <a
-      className="flex items-center p-4 m-4 shadow-lg group hover:shadow-xl duration-300"
+      className="flex items-center p-4 m-4 h-36 shadow-lg group hover:shadow-xl duration-300"
       href={link}
       target="_blank"
       rel="noopener noreferrer"

@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 const links = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
-  { to: "/friend", label: "Friend" },
+  { to: "/gallery ", label: "Gallery" },
+  { to: "/friend", label: "Friends" },
 ];
 
 function NavLink({
@@ -27,12 +28,17 @@ function NavLink({
 
 export default function Navbar() {
   return (
-    <nav className="px-16 py-8 bg-white flex items-center space-x-16 justify-end">
-      {links.map(({ to, label }, i) => (
-        <NavLink key={to} num={i + 1} to={to}>
-          {label}
-        </NavLink>
-      ))}
-    </nav>
+    <header className="flex items-center bg-gradient-primary justify-between">
+      <a className='font-serif text-xl font-bold ml-4 text-slate-500' href="/">@TenkeySeven</a>
+      <nav className="px-8 py-4 flex items-center space-x-16 justify-start text-gray-500">
+        {links.map(({ to, label }, i) => (
+          <NavLink key={to} num={i + 1} to={to}>
+            {label}
+          </NavLink>
+        ))}
+      </nav>
+
+
+    </header>
   );
 }
