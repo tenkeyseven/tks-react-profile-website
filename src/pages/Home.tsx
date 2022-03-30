@@ -24,7 +24,6 @@ export default function Home() {
           Current Status: 🌱
         </div>
       </div> */}
-
       {/*  */}
       {/* <div className="relative group">
         <div className="text-8xl tracking-widest font-thick">TenkeySeven</div>
@@ -37,7 +36,7 @@ export default function Home() {
       {/* <div className="border h-32 bg-primary">
       <div className="texl-3xl">TenkeySeven</div>
     </div> */}
-      <div className="flex flex-col m-16 items-center">
+      {/* <div className="flex flex-col m-16 items-center">
         <div className="flex justify-center text-3xl font-bold">玉兰</div>
         <img
           className="border-orange-300 border-[16px] w-3/5 m-8 flex justify-center"
@@ -54,7 +53,7 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col m-16 items-center">
-        <div className="flex justify-center text-3xl font-bold">依旧还是玉兰</div>
+        <div className="flex justify-center text-3xl font-bold">还是玉兰</div>
         <img
           className="border-orange-300 border-[16px] w-3/5 m-8 flex justify-center"
           src="photography/FINE_IMG6.jpg"
@@ -62,12 +61,25 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col m-16 items-center">
-        <div className="flex justify-center text-3xl font-bold">不是玉兰了，是小雏菊</div>
+        <div className="flex justify-center text-3xl font-bold">123</div>
         <img
           className="border-orange-300 border-[16px] w-3/5 m-8 flex justify-center"
           src="photography/IMG_0179.jpg"
           alt="123"
         />
+      </div> */}
+      <div className="flex flex-col m-16 items-center">
+        <div className="bg-primary w-[80rem] h-[25rem]"></div>
+      </div>
+      <div className="flex flex-col m-16 items-center">
+        <div className="bg-secondary w-[80rem] h-[25rem]">
+        </div>
+      </div>
+      <div className="flex flex-col m-16 items-center">
+        <div className="bg-tertiary w-[80rem] h-[25rem]"></div>
+      </div>
+      <div className="flex flex-col m-16 items-center">
+        <div className="bg-quaternary w-[80rem] h-[25rem]"></div>
       </div>
     </div>
   );
