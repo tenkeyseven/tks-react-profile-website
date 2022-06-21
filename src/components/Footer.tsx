@@ -19,6 +19,9 @@ export default function Footer() {
         <div className="text-sm text-slate-500">
           Maintained by @TenkeySeven 2022
         </div>
+        <a className="text-sm text-slate-500" href="https://beian.miit.gov.cn/">
+          京ICP备17065315号
+        </a>
       </div>
     </footer>
     // <footer className="px-16 py-4 bg-gray-50 text-gray-600 text-sm">
