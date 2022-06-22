@@ -1,0 +1,9 @@
+tenkeyseven.com {
+    root * dist/
+    try_files {path} /
+    file_server
+}
+
+www.tenkeyseven.com {
+    redir https://tenkeyseven.com 
+}
