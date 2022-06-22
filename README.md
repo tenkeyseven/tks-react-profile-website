@@ -35,3 +35,9 @@ pnpm install
 ```bash
 pnpm dev
 ```
+
+build static dist for file-server website
+
+```bash
+pnpm build
+```
