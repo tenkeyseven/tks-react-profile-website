@@ -69,17 +69,17 @@ export default function Home() {
         />
       </div> */}
       <div className="flex flex-col m-16 items-center">
-        <div className="bg-primary w-[80rem] h-[25rem]"></div>
+        <div className="bg-primary w-[80rem] h-[25rem] hover:bg-opacity-75"></div>
       </div>
       <div className="flex flex-col m-16 items-center">
-        <div className="bg-secondary w-[80rem] h-[25rem]">
+        <div className="bg-secondary w-[80rem] h-[25rem] hover:bg-opacity-75">
         </div>
       </div>
       <div className="flex flex-col m-16 items-center">
-        <div className="bg-tertiary w-[80rem] h-[25rem]"></div>
+        <div className="bg-tertiary w-[80rem] h-[25rem] hover:bg-opacity-75"></div>
       </div>
       <div className="flex flex-col m-16 items-center">
-        <div className="bg-quaternary w-[80rem] h-[25rem]"></div>
+        <div className="bg-quaternary w-[80rem] h-[25rem] hover:bg-opacity-75"></div>
       </div>
     </div>
   );
